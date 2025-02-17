@@ -1,0 +1,82 @@
+
+
+header{
+    display: flex;
+    justify-content: space-between ;
+    background-color: black;
+}
+.logo{
+    font-size: 60px;
+}
+.logo img{
+    height: 100px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+nav{
+    margin: 20px;
+    padding: 10px; 
+    font-size: larger;
+    background-color: black;
+}
+nav a{
+    margin-right: 20px;
+    font-size:50px;
+    background-color: black;
+}
+img{
+    width: 100%;
+    height: 300px;
+}
+.container{
+    display: flex;
+    background-color: white;
+}
+.vid_container{
+    display: grid  ;
+    gap: 10px;
+    grid-template-columns: repeat(4,50%);
+    background-color: black;
+
+
+}
+.img_container{
+    display: grid  ;
+    gap: 10px;
+    grid-template-columns: repeat(6,19%);
+    background-color: black;
+
+    
+
+}
+.logo{
+    background-color: black;
+}
+
+
+.Movies{
+    text-align: center;
+    border: 1px solid rosybrown;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 8px;
+}
+.Movies button{
+    background-color: yellow;
+    padding: 15px;
+    border-radius: 15px;
+}
+#movies div img{
+     height: 150px;
+     width: 150px;
+    }
+#MoviesList{
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+}
+.searchcontainer{
+    justify-content: center 20px;
+    text-align: center;
+
+}
